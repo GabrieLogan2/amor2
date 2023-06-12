@@ -1,161 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Te amo!</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('.gallery img').hide().fadeIn(1000);
-    });
-  </script>
+    <title>Homenagem ao Dia dos Namorados</title>
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-  <header>
-    <div class="header__container">
-      <h1 class="header__title">Eu te amo muito, meu momo.</h1>
-      <nav class="header__nav">
-        <ul>
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#fotos">Fotos</a></li>
-          <li><a href="#playlist">Playlist</a></li>
-          <li><a href="https://gabrielogan2.github.io/Lembretes/" target="_blank">Lembretes</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section id="inicio" class="section__inicio">
-      <div class="section__container">
-        <h2 class="section__title">Minha preta,</h2>
-        <p class="section__description">Eu queria dedicar essa página a você, para que saiba o quanto é especial para
-          mim. Não importa quantas palavras eu tente encontrar, mas nunva vou descrever todo meu amor por você. Quero te
-          agradecer por todos momentos que dividimos juntos jamais acharia que encontraria alguém assim igual você.
-          Amor, você é a mulher mais forte que eu conheci! Graças a você todos os dias eu busco ser forte porque eu
-          admiro sua força. EU TE AMO PARA TODO SEMPRE! Acho que você é o gás que faltava na minha vida. Continue
-          correndo atrás dos objetivos e sonhos que você almeja sei que você realizará todos e mais uma vez: Estarei lá
-          para aplaudir de pé todas tuas conquistas(Você é uma grande mulher!!)
-          Seus abraços são os melhores, seus beijos também. Me sinto renovado perto de você, me sinto alegre, feliz...
-          Você me traz sensações que nunca senti. Não deixe que ninguém faça pouco de você, você é GRANDIOSA! Você é uma
-          ótima filha, ótima namorada, ótima pessoa, você é incrível.
-          Quero ser teu, quero que você seja minha. Quero poder sempre te amar e ouvir o quanto sou amado, quero poder
-          acordar com você me enchendo de beijos ou simplesmente acordar pra ver o quanto é lindo você dormindo. Mas do
-          meu lado, eu quero você do meu lado. Será que ninguém entende? Nunca vou soltar sua mão, sempre estarei aqui
-          para você, pode contar comigo!
-          Amor, continue sendo essa pessoa maravilhosa que és e jamais deixe pessoas apagarem o brilho que apenas você
-          tem. nunca existirá duas de você... sortudo foi eu que achei (besta quem perdeu).
-          Eu te amo, amo seu jeito, seu cabelo, seu olhos, amo tudo em você. Continue sendo assim: EU TE
-          AMOOOOOOOOOOOOOOOOOOOO! você é maravilhosa, meu amor. Eu amo tuas risadas, tuas piadas sem graça e tuas
-          tentativas de me tirar do sério. Eu amo a tua cara enciumada, o bico que você faz quando fica emburrada ou
-          pedindo beijo. Eu amo quando você para e fica me olhando em silêncio, e quando você me deita sobre teu peito e
-          me faz carinho. Quando você entrelaça tuas mãos nas minhas e segura forte como quem não quer soltar. E sei que
-          não vai…
-          <p class="section__description"><br>Não esqueça: "Oh, I see you coming.... got my heart jumping like Jordans"</br></p>
-
-      </div>
-    </section>
-    <section id="sobre" class="section__sobre">
-      <div class="section__container">
-        <h2 class="section__title">Sobre nós</h2>
-        <p class="section__description">Nós nos conhecemos há alguns meses e desde então nossa relação só tem crescido.
-          Eu sou muito feliz ao seu lado e agradeço todos os dias por ter você na minha vida. Desde que te vi, eu
-          pensei: Ela vai ser minha namorada! E hoje estamos aqui constuindo algo maravilhoso juntos!
-          Amo todas as formas que nos compreendemos, a gente se entende sem precisar falar nada. Como sempre digo: a
-          gente tem uma conexão e parece que estava predestinado. Chegamos na vida um do outro repentinamente e hoje
-          somos NAMORADOS e MELHORES AMIGOS.
-          A gente divide o mesmo neurônio. É bom ter você comigo, você é a peça que faltava no meu quebra-cabeça. Eu amo
-          a gente de todas as formas. Obrigado por sempre acreditar na gente, vou zelar nosso amor sempre!!
-          TE AMO MUITO!</p>
-        <pre class="section__description">
-      "Ter seu amor é o mesmo que ter oxigênio em meus pulmões
-      Me traz vida e ânimo para poder enfrentar o mundo
-      Nada mais importa quando você está ao meu lado
-      Nada mais importa, pois somente sua companhia basta
-      
-      Eu sei que é amor porque meu coração dispara toda vez que te vê
-      Eu sei que é amor porque as mãos gelam, e as pupilas dos meus olhos dilatam
-      Eu sei que é amor porque nunca conheci alguém tão incrível como você
-      
-      Antes de você, tudo era diferente
-      Agora, nada será igual
-      Você revirou tudo
-      Mas também colocou as coisas no lugar
-      É a mais linda bagunça que eu pude aceitar
-      Tem a liberdade de fazer do meu coração morada para seus sentimentos."
-      </pre>
-      </div>
-      <!--Mini Game-->
-    <div id="mini-game">
-      <h2>Mini Game</h2>
-      <p>Acerte o coração: (clique em jogar)</p>
-      <div class="game-container">
-        <div class="heart"></div>
-      </div>
-      <button id="play-button">Jogar</button>
-    </div>
-    </section>
-
-    <!--Galeria de fotos-->
-    <section id="fotos" class="section__fotos">
-      <div class="section__container">
-        <h2 class="section__title">Nossas fotos</h2>
+    <div class="container">
+        <h1>Homenagem ao Dia dos Namorados</h1>
+        <p>Amor, neste dia especial, quero expressar todo o meu carinho e amor por você. Você é a pessoa mais especial na minha vida e sou grato(a) todos os dias por ter você ao meu lado. Feliz Dia dos Namorados!</p>
+        
         <div class="gallery">
-          <img src="./images/1.jpg" alt="Foto 1" id="imagem">
-          <img src="./images/2.jpg" alt="Foto 2" id="imagem">
-          <img src="./images/3.jpg" alt="Foto 3"id="imagem">
-          <img src="./images/4.jpg" alt="Foto 4"id="imagem">
-          <img src="./images/5.jpg" alt="Foto 5"id="imagem">
-          <img src="./images/6.jpg" alt="Foto 6"id="imagem">
-          <img src="./images/7.jpg" alt="Foto 7"id="imagem">
-          <img src="./images/8.jpg" alt="foto 8"id="imagem">
-          <img src="./images/9.jpg" alt="foto 9"id="imagem">
-          <img src="./images/10.jpg" alt="foto 10"id="imagem">
-          <img src="./images/11.jpg" alt="11" id="imagem">
-          <img src="./images/12.jpg" alt="12" id="imagem">
-          <img src="./images/13.jpg" alt="13" id="imagem">
-          <img src="./images/14.jpg" alt="14" id="imagem">
-          <img src="./images/15.jpg" alt="15" id="imagem">
-          <img src="./images/16.jpg" alt="16" id="imagem">
-          <img src="./images/17.jpg" alt="17" id="imagem">
-          <img src="./images/18.jpg" alt="18" id="imagem">
+            <img src="images/11.jpg" alt="Foto 1">
+            <img src="images/namorados3.jpg" alt="Foto 2">
+            <img src="images/namorados2.jpg" alt="Foto 3">
+        </div>
+        
+        <div class="envelope">
+            <i class="fas fa-envelope"></i>
+        </div>
+
+        <h2 class="music-title">Música que representa nosso relacionamento</h2>
+        
+        <audio controls class="music-player">
+            <source src="music/Cazuza - Exagerado.mp3" type="audio/mpeg">
+
+        </audio>
+
+        <!-- <div class="video-section">
+          <h2 class="video-title">Vídeo de Declaração</h2>
+          <div class="video-player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PkrAGZ1VInk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div> -->
+        
+        <div class="ticket">
+            <h3>Hoje, <span id="ticket-date"></span>, você tem uma noite para sair e comer</h3>
+            <p>Apresente este ingresso para aproveitar uma noite especial juntos. Vamos desfrutar de um jantar romântico em seu restaurante favorito. Aproveite!</p>
+          </div>
           
-        </div>
-        <div class="image-modal">
-          <img src="" alt="" class="modal-image">
-          <div class="modal-message"></div>
-        </div>
-        </div>
-      </div>
+          
 
+    </div>
 
-      <div id="video-gallery" class="section__fotos">
-        <h2 >Vídeos</h2>
-        <div class="video-container">
-          <video src="./videos/1.mp4"></video>
+    <div class="hearts-container">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <div class="modal" id="message-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Mensagem Especial</h2>
+            <p>Feliz dia dos namorados e feliz 4 meses, meu amor!
+                Quero agradecer você por ter dado a chance de ter você comigo para sempre serei grato! 
+                Como sempre falo que seja para sempre todas datas comemorativas do teu lado. Você é minha melhor companhia, meus sorrisos mais sinceros, meus abraços mais apertado, com você tudo foi intenso. Quero dizer que vou viver do teu lado para sempre, todos os dias!!! 
+                Eu te amo muito a cada dia que passa. Todo dia tento ser o melhor de mim para agradar a mulher da minha vida que é você! 
+                
+                "Foi o tempo que dedicaste à tua rosa que a fez tão importante."
+                
+                Você vai entender essa frase assim que ver um presentinho que comprei para você. Mas é o tempo que a gente dedica um ao outro que nos faz importante e nossa relação é baseada nisso! Eu te quero comigo para sempre, eu te amo muito e obrigado por me fazer feliz e bem. ❤
+            
+            <p>"O verdadeiro amor é eterno, infinito e sempre é igual a si mesmo. Ele é puro e imaculado, não pode ser influenciado pelo tempo. O verdadeiro amor é silencioso, invisível e nunca se acaba." - O Pequeno Príncipe, Antoine de Saint-Exupéry</p>
+            
+            </p>
         </div>
-      </div>
-    </section>
-  
-    
-    <!--Playlist dedicada-->
-    <section id="fotos" class="section__fotos">
-      <div class="section__container">
-        <h2 class="section__title">Playlist dedicada a você!</h2>
-        <div class="gallery">
-        <iframe id="playlist" style="border-radius: 12px"
-            src="https://open.spotify.com/embed/playlist/3amb3hK2X49ZdAjrQy8RR3?utm_source=generator" width="100%"
-            height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-      </div>
-    </section>
- 
+    </div>
+
     <script src="script.js"></script>
 </body>
-
 </html>
